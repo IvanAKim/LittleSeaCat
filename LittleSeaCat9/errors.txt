@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/Chapter2.rpy", line 43: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    Stranger "You have reached chapter 2"
+    ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Wed May 20 17:55:23 2020

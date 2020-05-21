@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/Chapter1.rpy", line 355, in script
+    jump Chapter2
+ScriptError: could not find label 'Chapter2'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/Chapter1.rpy", line 355, in script
+    jump Chapter2
+  File "B:\Ivan Kim\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
+    rv = renpy.game.script.lookup(target)
+  File "B:\Ivan Kim\Desktop\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'Chapter2'.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+LittleSeaCat9Chapter1 1.0
+Wed May 20 17:56:42 2020
